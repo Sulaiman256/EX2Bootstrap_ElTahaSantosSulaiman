@@ -1,0 +1,5 @@
+$primary-button-color: #00bfb4;
+@import "bootstrap/scss/bootstrap";
+.container .btn.btn-info {
+  background-color: $primary-button-color;
+}
