@@ -23,12 +23,21 @@
   .boton2Mobile {
     margin-left: 120px;
   }
+  .agrandarImagenPC {
+    display: none;
+  }
+  .margenPCScreen {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   body {
     margin: 0;
     padding: 0;
+  }
+  .agrandarImagenPC {
+    display: none;
   }
   .container {
     margin: 0;
