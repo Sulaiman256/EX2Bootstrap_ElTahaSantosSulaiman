@@ -20,4 +20,67 @@
   .imagenHowToStartMobile {
     margin-left: 30px;
   }
+  .boton2Mobile {
+    margin-left: 120px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+  .container1Ipad {
+    background-color: #7036ba;
+  }
+  .boton1Ipad {
+    margin-left: 300px;
+    position: absolute;
+    top: 245px;
+  }
+  .agrandarImagenIpad {
+    width: 100%;
+    height: 500px;
+  }
+  .margenIpadImagenesVideo {
+    margin-left: 30px;
+  }
+  .agrandarImagenIpadImagenesVideo {
+    width: 100%;
+  }
+  .imagenHowToStartIpad {
+    margin-left: 180px;
+  }
+  .parrafo3Ipad {
+    margin-top: 30px;
+  }
+  .featuresIconIpad {
+    margin-left: 30px !important;
+  }
+  .featuresTextoIpad {
+    margin-left: -130px;
+  }
+  .boton2Ipad {
+    margin-left: 300px;
+  }
+  .margenIpadCard {
+    margin-left: 250px;
+  }
+  .texto2footer {
+    position: absolute;
+    top: 4515px;
+    margin-left: 550px;
+  }
+  .texto1footer {
+    margin-left: 40px;
+  }
+}
+
+.btn-outline-light {
+  background-color: transparent;
+  border-color: white;
 }
